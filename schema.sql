@@ -13,13 +13,15 @@ CREATE TABLE reviews (
 review_id INT NOT NULL PRIMARY KEY,
 product_id INT NOT NULL,
 rating INT NOT NULL,
-summary varchar(500) NOT NULL,
-recommend bit NOT NULL,
-body text(3000) NOT NULL,
 date datetime NOT NULL,
-reviewer_name varchar(25) NOT NULL,
-helpfulness INT NOT NULL,
+summary varchar(500) NOT NULL,
+body text(3000) NOT NULL,
+recommend bit NOT NULL,
 reported bit NOT NULL,
+reviewer_name varchar(25) NOT NULL,
+reviewer_email varchar(25) NOT NULL,
+response varchar(500) NOT NULL,
+helpfulness INT NOT NULL,
 characteristic_id INT NOT NULL,
 FOREIGN KEY (product_id)
   REFERENCES products(product_id)
@@ -39,7 +41,7 @@ FOREIGN KEY (review_id)
 
 CREATE TABLE characteristics (
 value varchar(50),
-characteristic_id INT NOT NULL PRIMARY KEY,
+characteristic_id INT NOT NULL PRIMARY KEY
 );
 
 CREATE TABLE product_characteristics (
@@ -58,9 +60,9 @@ CREATE TABLE product_characteristics (
 CREATE TABLE reviews_characteristics (
   product_charac_id INT NOT NULL,
   review_id INT NOT NULL,
-  value INT CHECK(-1 < value < 6) NOT NULL,
+  value INT NOT NULL,
   FOREIGN KEY (product_charac_id)
-    REFERENCES productCharacteristics(id)
+    REFERENCES product_characteristics(id)
     ON DELETE CASCADE
 
 );
