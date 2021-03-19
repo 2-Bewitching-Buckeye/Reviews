@@ -1,1 +1,1 @@
-LOAD DATA INFILE ''
+-- LOAD DATA LOCAL INFILE '/Users/tandan/sdc/products.txt' INTO TABLE reviews;
