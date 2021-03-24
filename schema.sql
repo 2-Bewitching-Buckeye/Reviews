@@ -16,12 +16,15 @@ rating INT NOT NULL,
 date datetime NOT NULL,
 summary varchar(500) NOT NULL,
 body text(3000) NOT NULL,
-recommend bit NOT NULL,
-reported bit NOT NULL,
+recommend BOOLEAN NOT NULL,
+reported BOOLEAN NOT NULL,
 reviewer_name varchar(25) NOT NULL,
 reviewer_email varchar(25) NOT NULL,
 response varchar(500) NOT NULL,
-helpfulness INT NOT NULL
+helpfulness INT NOT NULL,
+FOREIGN KEY (product_id)
+  REFERENCES products(product_id)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE photos (

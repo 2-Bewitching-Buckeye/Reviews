@@ -22,7 +22,7 @@ const reviewsSchema = new mongoose.Schema({
 	helpfulness: Number,
   product_id: String,
   photos: Array,
-  characteristics: characteristics: {
+  characteristics:{
 		Size: {
 			size_id: Number,
 			value: mongoose.Decimal128

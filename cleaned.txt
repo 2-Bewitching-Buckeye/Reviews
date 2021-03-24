@@ -1,6 +1,0 @@
-2, 1, 5, 2019-01-01, "this product was good", "I really like it lots", 1, 1, "ankur_tandan", "tandan@gmail.com", "yeah let's do it", 8
-3, 1, 5, 2019-01-01, "this product was good", "I really like it lots", 1, 1, "ankur_tandan", "bruno@gmail.com", "yeah let's do it",9
-4, 1, 5, 2019-01-01, "this product was good", "I really like it lots", 1, 1, "ankur_tandan", "kaka@gmail.com", "yeah let's do it", 8
-5, 1, 5, 2019-01-01, "this product was good", "I really like it lots", 1, 1, "ankur_tandan", "kaka@gmail.com", "yeah let's do it", 8
-7, 1, 5, 2019-01-01, "this product was good", "I really like it lots", 1, 1, "ankur_tandan", "kaka@gmail.com", "yeah let's do it", 8
-8, 1, 5, 2019-01-01, "this product was good", "I really like it lots", 1, 1, "ankur_tandan", "kak@gmail.com", "yeah let's do it", 8

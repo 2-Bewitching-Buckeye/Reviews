@@ -1,5 +1,0 @@
-1.  I have csv files and need to get them into the database. The files are reviews.csv, reviews_photos.csv, characteristics.csv, characteristic_reviews.csv.
-2.  Read the CSV's.
-3.  Verify and scrub each item.
-4a.  Load into a database.
-4b.  Save into a CSV file.
