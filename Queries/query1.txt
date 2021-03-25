@@ -1,0 +1,11 @@
+Queries:
+One Query:  getReviews
+  x 1.  I need to select reviews based on product ID - completed
+  x-2.  I need to select photos based on review ID -- completed using joins
+  3.  I need to select characteristics based on product_id
+  4.  I need to select product_characteristics based on characterisitc_id
+  5.  I need to select reviews_characteristics based on review id
+
+  ----
+
+  route for reviews by helpfulness and spend 2 hours on characteristic queries.
