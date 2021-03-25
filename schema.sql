@@ -66,7 +66,6 @@ CREATE TABLE reviews_characteristics (
   FOREIGN KEY (review_id)
   REFERENCES reviews(review_id)
   ON DELETE CASCADE
-
 );
 
 
